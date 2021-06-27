@@ -7,16 +7,16 @@
 
 <AnchorPane prefHeight="834.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddNewStudentController">
    <children>
-      <TextField layoutX="35.0" layoutY="40.0" prefHeight="40.0" prefWidth="589.0" promptText="Name" />
-      <TextField layoutX="35.0" layoutY="107.0" prefHeight="40.0" prefWidth="589.0" promptText="NIC" />
-      <TextField layoutX="35.0" layoutY="178.0" prefHeight="40.0" prefWidth="589.0" promptText="Telephone" />
-      <TextField layoutX="35.0" layoutY="251.0" prefHeight="40.0" prefWidth="589.0" promptText="Address" />
-      <TextField layoutX="35.0" layoutY="324.0" prefHeight="40.0" prefWidth="589.0" promptText="Email" />
-      <ComboBox layoutX="34.0" layoutY="397.0" prefHeight="40.0" prefWidth="589.0" promptText="Select Course" />
-      <TextField layoutX="34.0" layoutY="470.0" prefHeight="40.0" prefWidth="589.0" promptText="Batch No" />
-      <ComboBox layoutX="34.0" layoutY="539.0" prefHeight="40.0" prefWidth="589.0" promptText="Payment Method" />
-      <TextField layoutX="34.0" layoutY="608.0" prefHeight="40.0" prefWidth="589.0" promptText="Amount" />
-      <TextField layoutX="35.0" layoutY="675.0" prefHeight="40.0" prefWidth="589.0" promptText="Receipt Date" />
+      <TextField fx:id="txtName" layoutX="35.0" layoutY="40.0" prefHeight="40.0" prefWidth="589.0" promptText="Name" />
+      <TextField fx:id="txtNIC" layoutX="35.0" layoutY="107.0" prefHeight="40.0" prefWidth="589.0" promptText="NIC" />
+      <TextField fx:id="txtTelephone" layoutX="35.0" layoutY="178.0" prefHeight="40.0" prefWidth="589.0" promptText="Telephone" />
+      <TextField fx:id="txtAddress" layoutX="35.0" layoutY="251.0" prefHeight="40.0" prefWidth="589.0" promptText="Address" />
+      <TextField fx:id="txtEmail" layoutX="35.0" layoutY="324.0" prefHeight="40.0" prefWidth="589.0" promptText="Email" />
+      <ComboBox fx:id="txtCourse" layoutX="34.0" layoutY="397.0" prefHeight="40.0" prefWidth="589.0" promptText="Select Course" />
+      <TextField fx:id="txtBatchNo" layoutX="34.0" layoutY="470.0" prefHeight="40.0" prefWidth="589.0" promptText="Batch No" />
+      <ComboBox fx:id="txtPaymentMethod" layoutX="34.0" layoutY="539.0" prefHeight="40.0" prefWidth="589.0" promptText="Payment Method" />
+      <TextField fx:id="txtAmount" layoutX="34.0" layoutY="608.0" prefHeight="40.0" prefWidth="589.0" promptText="Amount" />
+      <TextField fx:id="txtReceiptDate" layoutX="35.0" layoutY="675.0" prefHeight="40.0" prefWidth="589.0" promptText="Receipt Date" />
       <Button fx:id="btnAdd" layoutX="502.0" layoutY="752.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="40.0" prefWidth="122.0" stylesheets="@css/components.css" text="ADD" textFill="WHITE" />
       <Button fx:id="btnCancel" layoutX="361.0" layoutY="752.0" mnemonicParsing="false" onAction="#onClickCancel" prefHeight="40.0" prefWidth="122.0" text="Cancel" />
    </children>
