@@ -6,10 +6,10 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCourseFormController">
    <children>
-      <TextField layoutX="24.0" layoutY="43.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Name" />
-      <TextField layoutX="24.0" layoutY="100.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course ID" />
-      <TextField layoutX="24.0" layoutY="158.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Fee" />
-      <TextField layoutX="24.0" layoutY="216.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Duration" />
+      <TextField fx:id="txtCourseName" layoutX="24.0" layoutY="43.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Name" />
+      <TextField fx:id="txtCourseID" layoutX="24.0" layoutY="100.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course ID" />
+      <TextField fx:id="txtCourseFee" layoutX="24.0" layoutY="158.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Fee" />
+      <TextField fx:id="txtCourseDuration" layoutX="24.0" layoutY="216.0" prefHeight="40.0" prefWidth="552.0" promptText="Name" text="Course Duration" />
       <Button fx:id="btnAdd" layoutX="468.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="33.0" prefWidth="109.0" stylesheets="@css/components.css" text="Add" textFill="WHITE" />
       <Button fx:id="btnCancel" layoutX="337.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickCancel" prefHeight="33.0" prefWidth="109.0" text="Cancel" />
       </children>
