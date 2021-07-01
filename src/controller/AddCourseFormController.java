@@ -10,6 +10,7 @@ public class AddCourseFormController {
 
 
     public void onClickAdd(ActionEvent actionEvent) {
+
     }
 
     public void onClickCancel(ActionEvent actionEvent) {

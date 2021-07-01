@@ -7,7 +7,7 @@ import java.util.List;
 
 public class StudentService {
 
-    private static final List<Student> studentDB = new ArrayList<>();
+        private static final List<Student> studentDB = new ArrayList<>();
     public StudentService(){
         Student s1 = new Student("aaa","aaa","aaa","aaa","aaa","aaa","aaa","aaa","456");
         Student s2 = new Student("bbb","ccc","ddd","eee","fff","ggg","hh","ii","789");
